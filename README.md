@@ -2,11 +2,11 @@
 
 Business Central Developer (AL) | MB-800 & MB-820 Certified | BSc Computer Science, MSc Information Systems
 
-I build Dynamics 365 Business Central extensions — from data model and
+I build Dynamics 365 Business Central extensions: from data model and
 business logic through automated testing, reporting, and real external
 integrations. The three projects below were each built end-to-end:
 architecture decisions, working AL, automated test coverage, and
-documentation of real platform behaviors discovered along the way —
+documentation of real platform behaviors discovered along the way,
 including bugs caught and fixed, not just features that worked on the
 first try.
 
