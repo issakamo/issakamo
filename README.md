@@ -42,6 +42,13 @@ connector (mock vs. live HTTP), `HttpClient`/JSON parsing, retry and
 audit logging, and a safety guard against writing incorrect financial
 master data.
 
+<p>
+  <a href="https://github.com/issakamo/business-central-warehouse-control"><img src="images/Project1_WarehouseControl_icon_216.png" alt="Warehouse Control" width="80"></a>
+  <a href="https://github.com/issakamo/business-central-purchase-control"><img src="images/Project2_PurchaseControl_icon_216.png" alt="Purchase Control" width="80"></a>
+  <a href="https://github.com/issakamo/business-central-fx-integration"><img src="images/Project3_FXIntegration_icon_216.png" alt="FX Integration" width="80"></a>
+  <a href="https://github.com/issakamo/business-central-finance-analytics"><img src="images/ProjectA_FinanceAnalytics_icon_216.png" alt="Finance Analytics" width="80"></a>
+</p>
+
 ## 🛠️ Technical Focus
 
 `AL` · `Dynamics 365 Business Central` · Event-driven extension design
