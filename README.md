@@ -13,6 +13,7 @@ first try.
 ## 📦 Projects
 
 ### [Warehouse Control](https://github.com/issakamo/business-central-warehouse-control)
+<a href="https://github.com/issakamo/business-central-warehouse-control"><img src="images/Project1_WarehouseControl_icon_216.png" alt="Warehouse Control" width="80"></a>
 Inventory exception detection and warehouse visibility. Automatically
 flags stock discrepancies and receiving variances during real posting
 processes, prioritizes them by variance severity, and surfaces them
@@ -23,6 +24,7 @@ FlowField vs. frozen-snapshot data modeling, Word-layout reports,
 permission sets, automated tests.
 
 ### [Purchase Control](https://github.com/issakamo/business-central-purchase-control)
+<a href="https://github.com/issakamo/business-central-purchase-control"><img src="images/Project2_PurchaseControl_icon_216.png" alt="Purchase Control" width="80"></a>
 Purchase order risk detection with full 3-way match validation
 (PO ↔ receipt ↔ invoice). Weighted risk scoring, a vendor reliability
 scorecard with a minimum-sample-size guard, and administrative-closure
@@ -34,6 +36,7 @@ masking bug caught by hand-testing in the Web Client, not by an
 automated test).
 
 ### [FX Integration](https://github.com/issakamo/business-central-fx-integration)
+<a href="https://github.com/issakamo/business-central-fx-integration"><img src="images/Project3_FXIntegration_icon_216.png" alt="FX Integration" width="80"></a>
 Automated foreign exchange rate sync from a live external API
 ([Frankfurter](https://frankfurter.dev)) into Business Central's native
 currency data, plus a read-only outbound OData v4 API.
@@ -41,13 +44,6 @@ currency data, plus a read-only outbound OData v4 API.
 connector (mock vs. live HTTP), `HttpClient`/JSON parsing, retry and
 audit logging, and a safety guard against writing incorrect financial
 master data.
-
-<p>
-  <a href="https://github.com/issakamo/business-central-warehouse-control"><img src="images/Project1_WarehouseControl_icon_216.png" alt="Warehouse Control" width="80"></a>
-  <a href="https://github.com/issakamo/business-central-purchase-control"><img src="images/Project2_PurchaseControl_icon_216.png" alt="Purchase Control" width="80"></a>
-  <a href="https://github.com/issakamo/business-central-fx-integration"><img src="images/Project3_FXIntegration_icon_216.png" alt="FX Integration" width="80"></a>
-  <a href="https://github.com/issakamo/business-central-finance-analytics"><img src="images/ProjectA_FinanceAnalytics_icon_216.png" alt="Finance Analytics" width="80"></a>
-</p>
 
 ## 🛠️ Technical Focus
 
