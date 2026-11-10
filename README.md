@@ -81,4 +81,4 @@ RapidStart and `Python` · Docker and online sandboxes for BC development
 ## 📫 Let's Connect
 
 [LinkedIn](https://linkedin.com/in/issakamo)
-Open to Business Central Developer / Technical Consultant roles in the US.
+Open to Business Central Developer / Technical Consultant roles in the US/Canada.
