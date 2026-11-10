@@ -2,13 +2,7 @@
 
 Business Central Developer (AL) | MB-800 & MB-820 Certified | BSc Computer Science, MSc Information Systems
 
-I build Dynamics 365 Business Central extensions: from data model and
-business logic through automated testing, reporting, and real external
-integrations. The three projects below were each built end-to-end:
-architecture decisions, working AL, automated test coverage, and
-documentation of real platform behaviors discovered along the way,
-including bugs caught and fixed, not just features that worked on the
-first try.
+I build on Dynamics 365 Business Central: AL extensions, reporting on Business Central data, and data migration into it. Each of the five projects below was built end-to-end, with architecture decisions, working code, testing or reconciliation, and documentation of real platform behaviors discovered along the way, including problems caught and fixed, not just features that worked on the first try.
 
 ## 📦 Projects
 
@@ -45,11 +39,39 @@ connector (mock vs. live HTTP), `HttpClient`/JSON parsing, retry and
 audit logging, and a safety guard against writing incorrect financial
 master data.
 
+### [Finance Analytics](https://github.com/issakamo/business-central-finance-analytics)
+<a href="https://github.com/issakamo/business-central-finance-analytics"><img src="images/Project4_FinanceAnalytics_icon_216.png" alt="Finance Analytics" width="80"></a>
+A Power BI finance report built on Business Central data: sales and
+margin, budget vs. actual, receivables aging, and working capital
+(DSO, DPO, DIO, cash conversion cycle). Twelve read-only AL API queries
+feed a star-schema model, deployed as a per-tenant extension to a
+Business Central online sandbox and reached through service-to-service
+OAuth. Every figure was reconciled against Business Central's own reports.
+**Demonstrates:** AL API queries, least-privilege permission sets,
+Entra app registration, Power BI data modeling and DAX, row-level
+security, and data findings documented from real ledger entries.
+[Video walkthrough](https://youtu.be/KChtyXQfgjk)
+
+### [QuickBooks Migration](https://github.com/issakamo/business-central-quickbooks-migration)
+<a href="https://github.com/issakamo/business-central-quickbooks-migration"><img src="images/Project5_QuickBooksMigration_icon_216.png" alt="QuickBooks Migration" width="80"></a>
+A complete QuickBooks Online to Business Central migration for a
+fictional distributor, rehearsed in two trial runs (a local BC 28.3
+container, then a BC 29.0 online sandbox) and reconciled to the cent:
+all 54 accounts with a balance match the source, and the opening
+balance clearing account ends at $0.00.
+**Demonstrates:** data profiling and an issues log, account and
+master-data mapping, RapidStart packages built by Python scripts,
+opening balances through subledgers (AR, AP, FIFO stock, bank),
+NC/SC sales tax setup, 1099 tracking across a mid-year cutover, and a
+cutover checklist with go/no-go criteria.
+
 ## 🛠️ Technical Focus
 
 `AL` · `Dynamics 365 Business Central` · Event-driven extension design
-· `HttpClient` / JSON / REST & OData v4 · Automated testing (AL Test
-Framework) · Word-based reporting · Docker-based local BC development
+· `HttpClient` / JSON / REST & OData v4 · API queries and OAuth
+(service-to-service) · Automated testing (AL Test Framework) ·
+Word-based reporting · `Power BI` / DAX · Data migration with
+RapidStart and `Python` · Docker and online sandboxes for BC development
 
 ## 📄 Certifications
 
