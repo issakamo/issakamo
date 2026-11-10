@@ -40,7 +40,7 @@ audit logging, and a safety guard against writing incorrect financial
 master data.
 
 ### [Finance Analytics](https://github.com/issakamo/business-central-finance-analytics)
-<a href="https://github.com/issakamo/business-central-finance-analytics"><img src="images/Project4_FinanceAnalytics_icon_216.png" alt="Finance Analytics" width="80"></a>
+<a href="https://github.com/issakamo/business-central-finance-analytics"><img src="images/ProjectA_FinanceAnalytics_icon_216.png" alt="Finance Analytics" width="80"></a>
 A Power BI finance report built on Business Central data: sales and
 margin, budget vs. actual, receivables aging, and working capital
 (DSO, DPO, DIO, cash conversion cycle). Twelve read-only AL API queries
