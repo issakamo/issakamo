@@ -53,7 +53,7 @@ security, and data findings documented from real ledger entries.
 [Video walkthrough](https://youtu.be/KChtyXQfgjk)
 
 ### [QuickBooks Migration](https://github.com/issakamo/business-central-quickbooks-migration)
-<a href="https://github.com/issakamo/business-central-quickbooks-migration"><img src="images/Project5_QuickBooksMigration_icon_216.png" alt="QuickBooks Migration" width="80"></a>
+<a href="https://github.com/issakamo/business-central-quickbooks-migration"><img src="images/ProjectB_QuickBooksMigration_icon_216.png" alt="QuickBooks Migration" width="80"></a>
 A complete QuickBooks Online to Business Central migration for a
 fictional distributor, rehearsed in two trial runs (a local BC 28.3
 container, then a BC 29.0 online sandbox) and reconciled to the cent:
