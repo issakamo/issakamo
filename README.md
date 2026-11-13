@@ -16,6 +16,7 @@ reporting.
 **Demonstrates:** event subscribers on standard posting codeunits,
 FlowField vs. frozen-snapshot data modeling, Word-layout reports,
 permission sets, automated tests.
+[Video walkthrough](https://youtu.be/G0yQwuGnR10)
 
 ### [Purchase Control](https://github.com/issakamo/business-central-purchase-control)
 <a href="https://github.com/issakamo/business-central-purchase-control"><img src="images/Project2_PurchaseControl_icon_216.png" alt="Purchase Control" width="80"></a>
@@ -28,6 +29,7 @@ table risk model, Business Central platform behaviors found and
 documented through manual verification (including a real match-status
 masking bug caught by hand-testing in the Web Client, not by an
 automated test).
+[Video walkthrough](https://youtu.be/cMcnb_IZdMk)
 
 ### [FX Integration](https://github.com/issakamo/business-central-fx-integration)
 <a href="https://github.com/issakamo/business-central-fx-integration"><img src="images/Project3_FXIntegration_icon_216.png" alt="FX Integration" width="80"></a>
@@ -38,6 +40,7 @@ currency data, plus a read-only outbound OData v4 API.
 connector (mock vs. live HTTP), `HttpClient`/JSON parsing, retry and
 audit logging, and a safety guard against writing incorrect financial
 master data.
+[Video walkthrough](https://youtu.be/ecQFkwDQ8xM)
 
 ### [Finance Analytics](https://github.com/issakamo/business-central-finance-analytics)
 <a href="https://github.com/issakamo/business-central-finance-analytics"><img src="images/ProjectA_FinanceAnalytics_icon_216.png" alt="Finance Analytics" width="80"></a>
@@ -64,6 +67,7 @@ master-data mapping, RapidStart packages built by Python scripts,
 opening balances through subledgers (AR, AP, FIFO stock, bank),
 NC/SC sales tax setup, 1099 tracking across a mid-year cutover, and a
 cutover checklist with go/no-go criteria.
+[Video walkthrough](https://youtu.be/4nT_AlCPxe8)
 
 ## 🛠️ Technical Focus
 
